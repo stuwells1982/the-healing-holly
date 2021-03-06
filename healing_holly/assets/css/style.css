@@ -1,16 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
+
+/*--------------------------------------------Colors*/
+
+.bg-color-welcome {
+    background-color: #d4a7ba;
+}
+
+/*--------------------------------header*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
 .logo {
     background: url(../images/thehealingholly.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
-    min-width: 500px;
-    margin-left: 15px;
-    
+    background-size: contain;
+    min-height: 360px;
+    margin-left: -20px;
+    background-color: #d4a7ba;
 }
 
-/*--------------------------------colours*/
+.welcome {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #6d7573;
+}
 
-.nav-background {
-    background-color: #dbd7d7;
+.tagline {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #6d7573;
 }
