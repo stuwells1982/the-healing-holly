@@ -8,6 +8,10 @@
     background-color: #d4a7ba;
 }
 
+.ui-menu-color {
+    background-color: #d4a7ba;
+}
+
 .bg-color-nav {
     background-color: #d4a7ba;
 }
@@ -63,7 +67,15 @@ header {
     font-family: "Dancing Script", sans-serif;
     font-weight: 400;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     color: #6d7573;
     padding: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
 }
