@@ -42,6 +42,14 @@ h5 {
     display: inline-block;
 }
 
+.comp-therapies h1 {
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
 /*--------------------------------header*/
 
 header {
@@ -136,9 +144,35 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #abccb8;
 }
 
 #footer-details {
     padding: 20px;
+}
+
+/*--------------------------------about section*/
+
+#holly-ethos {
+    height: 600px;
+}
+
+#l-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+}
+
+#r-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#c-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
 }
