@@ -1,0 +1,16 @@
+.logo {
+    background: url(../images/thehealingholly.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    min-width: 500px;
+    margin-left: 15px;
+    
+}
+
+/*--------------------------------colours*/
+
+.nav-background {
+    background-color: #dbd7d7;
+}
