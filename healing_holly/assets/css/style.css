@@ -20,6 +20,28 @@
     color: #6d7573;
 }
 
+/*--------------------------------special paddings/margin/text*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.general-sub {
+    margin-top: 60px;
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #6d7573;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*--------------------------------header*/
 
 header {
@@ -78,4 +100,45 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+/*--------------------------------footer*/
+
+footer {
+    background-color: #d4a7ba;
+    color: #6d7573;
+    min-height: 120px;
+    margin: 0;
+}
+
+.contact-info {
+    font-family: "Shippori Mincho B1", sans-serif;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #6d7573;
+    background: #d4a7ba;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
