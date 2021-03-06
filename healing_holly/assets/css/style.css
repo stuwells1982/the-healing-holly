@@ -1,9 +1,19 @@
+/* Alot of my CSS layout, and ideas for class/id names, come from the Resume mini project */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
 
 /*--------------------------------------------Colors*/
 
 .bg-color-welcome {
     background-color: #d4a7ba;
+}
+
+.bg-color-nav {
+    background-color: #d4a7ba;
+}
+
+#nav li a {
+    color: #6d7573;
 }
 
 /*--------------------------------header*/
@@ -22,22 +32,38 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 360px;
-    margin-left: -20px;
     background-color: #d4a7ba;
 }
 
 .welcome {
     font-family: "Dancing Script", sans-serif;
     font-weight: 700;
-    font-size: 50px;
-    margin-top: 50px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 90px;
     color: #6d7573;
 }
 
 .tagline {
     font-family: "Dancing Script", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
     margin-top: 5px;
+    margin-bottom: 50px;
     color: #6d7573;
+}
+
+#nav {
+    margin-bottom: 25px;
+}
+
+#nav li {
+    margin-top: 40px;
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+    color: #6d7573;
+    padding: 0;
 }
