@@ -36,10 +36,18 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
+HTML, CSS and Bootstrap were used to build this project. Font Awesome and Google Fonts were used for all font and icons.
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML](https://html.com)
+    - The project uses **Html** to structure the website.
+
+- [CSS](https://css.com)
+    - The project uses **CSS** to style the website.
+
+- [Bootstrap](https://bootstrap.com)
+    - The project uses **Bootstrap** for some css styling and building the framework of the site.
 
 
 ## Testing
@@ -77,11 +85,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Alot of the code and layout ideas were from the "Resume mini project-Code Institute"
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Unsplash.com and the photographers were:
+    -Sierra Narvaeth
+    -Sarah Brown
+
+-The illustration for the logo was drawn by:
+    -Rosie James
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my wife Holly Wells who is in the process of setting up a business in Holistic therapies.
