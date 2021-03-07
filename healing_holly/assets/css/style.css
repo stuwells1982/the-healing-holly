@@ -75,6 +75,12 @@ h5 {
     margin-bottom: 40px;
 }
 
+.about-descriptions p {
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 /*--------------------------------header*/
 
 header {
@@ -188,3 +194,13 @@ footer {
     padding: 0;
 }
 
+.about-me-icon {
+    font-size: 20px;
+    color: #d4a7ba;
+}
+
+.about-me-heading {
+    margin-bottom: 15px;
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-weight: 700;
+}
