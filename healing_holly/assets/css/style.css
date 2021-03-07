@@ -24,6 +24,10 @@
     background-color: #fafafa;
 }
 
+.bg-color-contact {
+    background-color: #fafafa;
+}
+
 /*--------------------------------special paddings/margin/text*/
 
 h1,
@@ -241,3 +245,42 @@ footer {
     color: #fafafa;
 }
 
+/*--------------------------------contact*/
+
+/* all code below is from resume mini project */
+
+.contact-heading {
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-weight: 400;
+    margin: 25px 0 20px 0;
+}
+
+.consultaion-heading {
+    font-family: "Shippori Mincho B1", sans-serif;
+    font-weight: 800;
+    margin: 25px 0 20px 0;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin: 15px 0 20px 0;
+    color: #fafafa;
+    background-color: #6d7573;   
+}
+
+/*--------------------------------media queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 10px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+}
+
+}
