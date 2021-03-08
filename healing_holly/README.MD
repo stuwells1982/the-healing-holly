@@ -11,28 +11,26 @@ The photo section is incomplete, as client not fully set up and not enough image
 There is also a contact page for clients to contact Holly for further information.
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This website is designed for a client with a holistic therapies business. They want a website that is easy to use and focus on showing prices as well as information about each therapy.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+I will create a website that is intuitive and informative. there will also be aform section where potential clients can email for more information.
+
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+There are four pages to this project.
+
+Home page, where the logo is featured and a brief about section introducing Holly and her business
+
+Treatments page, where potential clients can have a look at what therapies are on offer, and how much they cost.
+
+Photos page, where clients can have a look at the space that they would be treated in.
+
+Contact page, where users can enter their name, email and some info about the specific treatment they are interested in. Holly can then contact them with a follow up email.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- Photo section is there but incomplete
 
 ## Technologies Used
 
@@ -52,40 +50,20 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All links to the seperate pages work. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The link to http://www.bachflower.com/ opens in a seperate window.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The contact form works correctly, giving erreor message if no email filled in.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+I deployed my site to Github pages by creating a URL in the settings section on my repostitory.
 
 ## Credits
 
 ### Content
-- Alot of the code and layout ideas were from the "Resume mini project-Code Institute"
+- Alot of the code and layout ideas were from the "Resume mini project-Code Institute". I changed aspects to suite my website.
 
 ### Media
 - The photos used in this site were obtained from Unsplash.com and the photographers were:
@@ -94,6 +72,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 -The illustration for the logo was drawn by:
     -Rosie James
+
 
 ### Acknowledgements
 
